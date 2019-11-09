@@ -1,0 +1,101 @@
+10:759  2:541  Found UEFI Acpi 2.0 RSDP at 3BC0D014
+10:759  0:000  Saving ACPI tables from RSDP 3BC0D014 to EFI\CLOVER\ACPI\origin ...
+10:759  0:000   3BC0D014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:759  0:000    (Xsdt: 3BBF0188, Rsdt: 3BBF00C4)
+10:759  0:000    3BBF0188: 'XSDT', 'xh_cfhd4', Rev: 1, Len: 244
+10:759  0:000    3BBF00C4: 'RSDT', 'xh_cfhd4', Rev: 1, Len: 140
+10:759  0:000    Tables in Xsdt: 26
+10:759  0:000    0. 3BBF3000: 'FACP', 'xh_cfhd4', Rev: 5, Len: 268
+10:759  0:000        (Dsdt: 3BBC2000, Facs: 3BB0C000, XDsdt: 3BBC2000, XFacs: 0)
+10:759  0:000        3BBC2000: 'DSDT', 'xh_cfhd4', Rev: 2, Len: 183160
+10:760  0:001        3BB0C000: 'FACS', Ver: 2, Len: 64
+10:760  0:000    1. 3BC0C000: 'UEFI', 'xh_cfhd4', Rev: 1, Len: 566
+10:760  0:000    2. 3BC08000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 14245
+10:760  0:000    3. 3BC05000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10690
+10:760  0:000    4. 3BC04000: 'UEFI', 'xh_cfhd4', Rev: 1, Len: 66
+10:760  0:000    5. 3BC03000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 1114
+10:760  0:000    6. 3BC02000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 70
+10:760  0:000    7. 3BC01000: 'TPM2', 'xh_cfhd4', Rev: 3, Len: 52
+10:760  0:000    8. 3BC00000: 'MSDM', 'xh_cfhd4', Rev: 3, Len: 85
+10:760  0:000    9. 3BBFF000: 'LPIT', 'xh_cfhd4', Rev: 1, Len: 148
+10:760  0:000    10. 3BBFE000: 'WSMT', 'xh_cfhd4', Rev: 1, Len: 40
+10:760  0:000    11. 3BBFD000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 3093
+10:760  0:000    12. 3BBFC000: 'DBGP', 'xh_cfhd4', Rev: 1, Len: 52
+10:760  0:000    13. 3BBFB000: 'DBG2', 'xh_cfhd4', Rev: 0, Len: 97
+10:760  0:000    14. 3BBFA000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 2584
+10:760  0:000    15. 3BBF8000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 6940
+10:760  0:000    16. 3BBF5000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10208
+10:760  0:000    17. 3BBF4000: 'ASF!', 'xh_cfhd4', Rev: 32, Len: 165
+10:760  0:000    18. 3BBF2000: 'HPET', 'xh_cfhd4', Rev: 1, Len: 56
+10:760  0:000    19. 3BBF1000: 'APIC', 'xh_cfhd4', Rev: 3, Len: 300
+10:760  0:000    20. 3BBEF000: 'MCFG', 'xh_cfhd4', Rev: 1, Len: 60
+10:760  0:000    21. 3BBC1000: 'DMAR', 'xh_cfhd4', Rev: 1, Len: 168
+10:760  0:000    22. 3BBBD000: 'SSDT', 'xh_cfhd4', Rev: 1, Len: 13417
+10:760  0:000    23. 3BBBC000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 353
+10:760  0:000    24. 3BBBA000: 'FPDT', 'xh_cfhd4', Rev: 1, Len: 68
+10:760  0:000    25. 3BBBB000: 'BGRT', 'xh_cfhd4', Rev: 1, Len: 56
+10:760  0:000    Tables in Rsdt: 26
+10:760  0:000    0. 3BBF3000: 'FACP', 'xh_cfhd4', Rev: 5, Len: 268
+10:760  0:000        (Dsdt: 3BBC2000, Facs: 3BB0C000, XDsdt: 3BBC2000, XFacs: 0)
+10:760  0:000        3BBC2000: 'DSDT', 'xh_cfhd4', Rev: 2, Len: 183160
+10:762  0:001        3BB0C000: 'FACS', Ver: 2, Len: 64
+10:762  0:000    1. 3BC0C000: 'UEFI', 'xh_cfhd4', Rev: 1, Len: 566
+10:762  0:000    2. 3BC08000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 14245
+10:762  0:000    3. 3BC05000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10690
+10:762  0:000    4. 3BC04000: 'UEFI', 'xh_cfhd4', Rev: 1, Len: 66
+10:762  0:000    5. 3BC03000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 1114
+10:762  0:000    6. 3BC02000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 70
+10:762  0:000    7. 3BC01000: 'TPM2', 'xh_cfhd4', Rev: 3, Len: 52
+10:762  0:000    8. 3BC00000: 'MSDM', 'xh_cfhd4', Rev: 3, Len: 85
+10:762  0:000    9. 3BBFF000: 'LPIT', 'xh_cfhd4', Rev: 1, Len: 148
+10:762  0:000    10. 3BBFE000: 'WSMT', 'xh_cfhd4', Rev: 1, Len: 40
+10:762  0:000    11. 3BBFD000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 3093
+10:762  0:000    12. 3BBFC000: 'DBGP', 'xh_cfhd4', Rev: 1, Len: 52
+10:762  0:000    13. 3BBFB000: 'DBG2', 'xh_cfhd4', Rev: 0, Len: 97
+10:762  0:000    14. 3BBFA000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 2584
+10:762  0:000    15. 3BBF8000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 6940
+10:762  0:000    16. 3BBF5000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10208
+10:762  0:000    17. 3BBF4000: 'ASF!', 'xh_cfhd4', Rev: 32, Len: 165
+10:762  0:000    18. 3BBF2000: 'HPET', 'xh_cfhd4', Rev: 1, Len: 56
+10:762  0:000    19. 3BBF1000: 'APIC', 'xh_cfhd4', Rev: 3, Len: 300
+10:762  0:000    20. 3BBEF000: 'MCFG', 'xh_cfhd4', Rev: 1, Len: 60
+10:762  0:000    21. 3BBC1000: 'DMAR', 'xh_cfhd4', Rev: 1, Len: 168
+10:762  0:000    22. 3BBBD000: 'SSDT', 'xh_cfhd4', Rev: 1, Len: 13417
+10:762  0:000    23. 3BBBC000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 353
+10:762  0:000    24. 3BBBA000: 'FPDT', 'xh_cfhd4', Rev: 1, Len: 68
+10:762  0:000    25. 3BBBB000: 'BGRT', 'xh_cfhd4', Rev: 1, Len: 56
+10:762  0:000  Found UEFI Acpi 1.0 RSDP at 3BC0D000
+10:762  0:000  Printing ACPI tables from RSDP 3BC0D000 ...
+10:762  0:000   3BC0D000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+10:762  0:000    (Rsdt: 3BBF0000)
+10:762  0:000    3BBF0000: 'RSDT', 'xh_cfhd4', Rev: 1, Len: 140
+10:762  0:000    Tables in Rsdt: 26
+10:762  0:000    0. 3BBF3000: 'FACP', 'xh_cfhd4', Rev: 5, Len: 268
+10:762  0:000        (Dsdt: 3BBC2000, Facs: 3BB0C000, XDsdt: 3BBC2000, XFacs: 0)
+10:762  0:000        3BBC2000: 'DSDT', 'xh_cfhd4', Rev: 2, Len: 183160
+10:763  0:001        3BB0C000: 'FACS', Ver: 2, Len: 64
+10:763  0:000    1. 3BC0C000: 'UEFI', 'xh_cfhd4', Rev: 1, Len: 566
+10:763  0:000    2. 3BC08000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 14245
+10:763  0:000    3. 3BC05000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10690
+10:763  0:000    4. 3BC04000: 'UEFI', 'xh_cfhd4', Rev: 1, Len: 66
+10:763  0:000    5. 3BC03000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 1114
+10:763  0:000    6. 3BC02000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 70
+10:763  0:000    7. 3BC01000: 'TPM2', 'xh_cfhd4', Rev: 3, Len: 52
+10:763  0:000    8. 3BC00000: 'MSDM', 'xh_cfhd4', Rev: 3, Len: 85
+10:763  0:000    9. 3BBFF000: 'LPIT', 'xh_cfhd4', Rev: 1, Len: 148
+10:763  0:000    10. 3BBFE000: 'WSMT', 'xh_cfhd4', Rev: 1, Len: 40
+10:763  0:000    11. 3BBFD000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 3093
+10:763  0:000    12. 3BBFC000: 'DBGP', 'xh_cfhd4', Rev: 1, Len: 52
+10:763  0:000    13. 3BBFB000: 'DBG2', 'xh_cfhd4', Rev: 0, Len: 97
+10:763  0:000    14. 3BBFA000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 2584
+10:763  0:000    15. 3BBF8000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 6940
+10:763  0:000    16. 3BBF5000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10208
+10:763  0:000    17. 3BBF4000: 'ASF!', 'xh_cfhd4', Rev: 32, Len: 165
+10:763  0:000    18. 3BBF2000: 'HPET', 'xh_cfhd4', Rev: 1, Len: 56
+10:763  0:000    19. 3BBF1000: 'APIC', 'xh_cfhd4', Rev: 3, Len: 300
+10:763  0:000    20. 3BBEF000: 'MCFG', 'xh_cfhd4', Rev: 1, Len: 60
+10:763  0:000    21. 3BBC1000: 'DMAR', 'xh_cfhd4', Rev: 1, Len: 168
+10:763  0:000    22. 3BBBD000: 'SSDT', 'xh_cfhd4', Rev: 1, Len: 13417
+10:763  0:000    23. 3BBBC000: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 353
+10:763  0:000    24. 3BBBA000: 'FPDT', 'xh_cfhd4', Rev: 1, Len: 68
+10:763  0:000    25. 3BBBB000: 'BGRT', 'xh_cfhd4', Rev: 1, Len: 56
