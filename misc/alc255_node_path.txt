@@ -1,0 +1,77 @@
+可选ID:	30 31 99
+
+PS:	
+Fixed 	->	内建
+Jack	->	外插
+
+EAPD: 
+---------------------------------
+0x14 		0x1b 		0x21
+01470c02	01b70c02	02170c02
+---------------------------------
+
+有效节点		10进制		设备名称				路径
+---------------------------------------------------------
+0x12		18			Internal Mic in 	8 <- 35 <- 18
+0x14		20			Speaker at Int		20 -> 12 -> 2
+0x21 		33			HP Out				33 -> 13 -> 3
+---------------------------------------------------------
+
+Node	PinDefault		Description
+---------------------------------------------------------
+0x12 	0x90a60130		[Fixed] Mic at Int N/A
+0x14	0x90170110		[Fixed] Speaker at Int N/A
+0x17 	0x40000000		[N/A] Line Out at Ext N/A
+0x18	0x411111f0		[N/A] Speaker at Ext Rear
+0x19 	0x411111f0		[N/A] Speaker at Ext Rear
+0x1a 	0x411111f0		[N/A] Speaker at Ext Rear
+0x1b	0x411111f0		[N/A] Speaker at Ext Rear
+0x1d	0x40f79a2d		[N/A] Other at Ext N/A
+0x1e	0x411111f0		[N/A] Speaker at Ext Rear
+0x21 	0x02211020		[Jack] HP Out at Ext Front
+---------------------------------------------------------
+
+Node	c	d 	e 	f 	Description
+------------------------------------------------------------
+12 		30	01	a6	90	[Fixed] Mic at Int N/A 		 内建输入	耳机
+14		10	01	17	90	[Fixed] Speaker at Int N/A 	 内建输出	
+17 		00 	00 	00 	40	[N/A] Line Out at Ext N/A 
+18		f0 	11 	11 	41	[N/A] Speaker at Ext Rear
+19 		f0 	11 	11 	41	[N/A] Speaker at Ext Rear -> 
+1a 		f0 	11 	11 	41	[N/A] Speaker at Ext Rear
+1b		f0 	11 	11 	41	[N/A] Speaker at Ext Rear
+1d		2d	9a	f7	40	[N/A] Other at Ext N/A
+1e		f0 	11 	11 	41	[N/A] Speaker at Ext Rear
+21 		20	10	21	02	[Jack] HP Out at Ext Front 	 耳机输出	
+------------------------------------------------------------
+
+Node	c	d 	e 	f 	Description
+------------------------------------------------------------
+12 		30	01	a6	90	[Fixed] Mic at Int N/A 		 内建输入	耳机
+14		10	01	17	90	[Fixed] Speaker at Int N/A 	 内建输出	
+17 		f0 	00	00	40	[N/A] Line Out at Ext N/A 
+18		f0 	00	00	40	[N/A] Speaker at Ext Rear
+19 		70 	20 	ab 	02	[N/A] Speaker at Ext Rear -> 
+1a 		f0 	00	00	40	[N/A] Speaker at Ext Rear
+1b		f0 	00	00	40	[N/A] Speaker at Ext Rear
+1d		f0 	00	00	40	[N/A] Other at Ext N/A
+1e		f0 	00	00	40	[N/A] Speaker at Ext Rear
+21 		20	10	2b	02	[Jack] HP Out at Ext Front 	 耳机输出	
+------------------------------------------------------------
+
+ConfigData:
+------------------------------------------------------------
+01271c30 01271d01 01271ea6 01271f90 01471c10 01471d01 01471e17 01471f90 01470c02 01771cf0 01771d00 01771e00 01771f40 01871cf0 01871d00 01871e00 01871f40 01971c70 01971d20 01971e8b 01971f02 01a71cf0 01a71d00 01a71e00 01a71f40 01b71cf0 01b71d00 01b71e00 01b71f40 01d71cf0 01d71d00 01d71e00 01d71f40 01e71cf0 01e71d00 01e71e00 01e71f40 02171c20 02171d10 02171e2b 02171f02 02170c02
+
+ConfigData Fixed:
+------------------------------------------------------------
+01271c30 01271d01 01271ea6 01271f90
+01471c10 01471d01 01471e17 01471f90 01470c02
+01771cf0 01771d00 01771e00 01771f40
+01871cf0 01871d00 01871e00 01871f40
+01971c70 01971d20 01971e8b 01971f02
+01a71cf0 01a71d00 01a71e00 01a71f40
+01b71cf0 01b71d00 01b71e00 01b71f40
+01d71cf0 01d71d00 01d71e00 01d71f40
+01e71cf0 01e71d00 01e71e00 01e71f40
+02171c20 02171d10 02171e2b 02171f02 02170c02
