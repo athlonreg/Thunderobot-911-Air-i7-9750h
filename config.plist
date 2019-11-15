@@ -33,194 +33,154 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>OSID to XSID</string>
+					<string>I2C1:_STA to XSTA</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					T1NJRA==
+					X1NUQQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFNJRA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>GPRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R1BSVw==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBSVw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>UBPI -&gt; XPBI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					VVBCSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBCSQ==
+					WFNUQQ==
 					</data>
 					<key>TgtBridge</key>
 					<data>
-					QkFUMA==
+					STJDMQ==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>UPBS -&gt; XPBS</string>
+					<string>PS2M:_STA to XSTA</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					VVBCUw==
+					X1NUQQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFBCUw==
+					WFNUQQ==
 					</data>
 					<key>TgtBridge</key>
 					<data>
-					QkFUMA==
+					UFMyTQ==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>IVBI -&gt; XVBI</string>
+					<string>PS2M:_CID to XCID</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					SVZCSQ==
+					X0NJRA==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFZCSQ==
+					WENJRA==
 					</data>
 					<key>TgtBridge</key>
 					<data>
-					QkFUMA==
+					UFMyTQ==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>WMAB -&gt; XMAB</string>
+					<string>_Q60 -&gt; XQ60</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					V01BQg==
+					X1E2MA==
 					</data>
 					<key>Replace</key>
 					<data>
-					WE1BQg==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					TUFQMQ==
+					WFE2MA==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>WMBB -&gt; XMBB</string>
+					<string>_Q6E -&gt; XQ6E</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					V01CQg==
+					X1E2RQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					WE1CQg==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					TUFQMQ==
+					WFE2RQ==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>WSAA -&gt; XSAA</string>
+					<string>_PTS to ZPTS(1,N)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					V1NBQQ==
+					X1BUUwE=
 					</data>
 					<key>Replace</key>
 					<data>
-					WFNBQQ==
+					WlBUUwE=
 					</data>
-					<key>TgtBridge</key>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_WAK to ZWAK(1,S)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
 					<data>
-					R1dNSQ==
+					X1dBSwk=
+					</data>
+					<key>Replace</key>
+					<data>
+					WldBSwk=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>UPBI -&gt; XPBI in BAT0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					VVBCSQA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBCSQA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>UPBS -&gt; XPBS in BAT0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					VVBCUwA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBCUwA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>IVBI -&gt; XVBI in BAT0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SVZCSQA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFZCSQA=
 					</data>
 				</dict>
 			</array>
@@ -243,7 +203,7 @@
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>NoDynamicExtract</key>
 			<false/>
@@ -254,7 +214,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0 igfxcflbklt=1 brcmfx-driver=1 brcmfx-country=#a keepsyms=1 debug=0x100</string>
+		<string>slide=0 keepsyms=1 debug=0x100</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
@@ -329,6 +289,19 @@
 				<key>name</key>
 				<string>Intel AHCI Controller</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1d,0x6)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI Express 3.0</string>
+				<key>compatible</key>
+				<string>pci14e4,4353</string>
+				<key>device_type</key>
+				<string>Airport Extreme</string>
+				<key>model</key>
+				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
+				<key>name</key>
+				<string>Airport</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -393,7 +366,7 @@
 			</dict>
 		</dict>
 		<key>SetIntelMaxBacklight</key>
-		<true/>
+		<false/>
 		<key>UseIntelHDMI</key>
 		<false/>
 	</dict>
@@ -442,6 +415,10 @@
 		<true/>
 		<key>AppleRTC</key>
 		<true/>
+		<key>ForceKextsToLoad</key>
+		<array>
+			<string>\System\Library\Extensions\IO80211Family.kext</string>
+		</array>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelPm</key>
