@@ -19,7 +19,7 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>_OSI to XOSI</string>
+					<string>I2C:_OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -33,7 +33,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>I2C1:_STA to XSTA</string>
+					<string>I2C1:_STA to XSTA in GPI0</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -46,7 +46,43 @@
 					</data>
 					<key>TgtBridge</key>
 					<data>
-					STJDMQ==
+					R1BJMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>I2C1:_STA to XSTA in TPD0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>I2C1:_CRS to XCRS in TPD0</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X0NSUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WENSUw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMA==
 					</data>
 				</dict>
 				<dict>
@@ -83,34 +119,6 @@
 					<key>TgtBridge</key>
 					<data>
 					UFMyTQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q60 -&gt; XQ60</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1E2MA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2MA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q6E -&gt; XQ6E</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1E2RQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2RQ==
 					</data>
 				</dict>
 				<dict>
@@ -183,6 +191,20 @@
 					WFZCSQA=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_Q60 -&gt; XQ60</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1E2MA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFE2MA==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -214,7 +236,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0 keepsyms=1 debug=0x100</string>
+		<string>slide=0</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
@@ -289,19 +311,6 @@
 				<key>name</key>
 				<string>Intel AHCI Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x6)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>PCI Express 3.0</string>
-				<key>compatible</key>
-				<string>pci14e4,4353</string>
-				<key>device_type</key>
-				<string>Airport Extreme</string>
-				<key>model</key>
-				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
-				<key>name</key>
-				<string>Airport</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -309,7 +318,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<integer>17</integer>
+				<integer>99</integer>
 				<key>model</key>
 				<string>Realtek HD Audio ALC257</string>
 				<key>name</key>
@@ -415,10 +424,6 @@
 		<true/>
 		<key>AppleRTC</key>
 		<true/>
-		<key>ForceKextsToLoad</key>
-		<array>
-			<string>\System\Library\Extensions\IO80211Family.kext</string>
-		</array>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelPm</key>
@@ -543,6 +548,42 @@
 				<key>Replace</key>
 				<data>
 				g/k/Dw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9LaXQ=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2C</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9LaXQ=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2CController</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
 				</data>
 			</dict>
 		</array>
