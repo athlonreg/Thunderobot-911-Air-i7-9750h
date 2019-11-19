@@ -6,11 +6,21 @@
 DefinitionBlock("", "SSDT", 2, "hack", "GPI0", 0)
 {
     External(_SB.PCI0.GPI0, DeviceObj)
+    External (_SB_.PCI0.GPI0.XSTA, MethodObj)
+    
     Scope (_SB.PCI0.GPI0)
     {
+        
         Method (_STA, 0, NotSerialized)
         {
-            Return (0x0F)
+            If (_OSI ("Darwin"))
+            {
+                Return (0x0F)
+            }
+            Else
+            {
+                Return (\_SB.PCI0.GPI0.XSTA ())    
+            }
         }
     }
 }
