@@ -9,7 +9,7 @@ Discret egraphics           Nvidia GeForce GTX 1650 4 GB
 Integrated graphics         Intel Graphics UHD 630
 Audio                       Realtek High Definition Audio (ALC255) 
 Ethernet                    Realtek RTL8168H/8111H PCI Express Gigabit Ethernet
-Wireless network adapter    DW1820A (BCM4350) 802.11ac Wireless Adapter
+Wireless network adapter    BCM94360CS2 Wireless Adapter
 ```
 
 # Credits
