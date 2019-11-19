@@ -19,6 +19,20 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>SAT0 -&gt; SATA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					U0FUMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					U0FUQQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>I2C:_OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
