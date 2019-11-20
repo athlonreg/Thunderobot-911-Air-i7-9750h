@@ -2,10 +2,21 @@
 // Find:     5F535441
 // Replace:  58535441
 // TgtBridge:5053324D
+//
 // In config ACPI, PS2M._CID to PS2M.XCID(PNP0F13)
 // Find:     5F434944
 // Replace:  58434944
 // TgtBridge:5053324D
+//
+// In config ACPI, PTID.XCID to PTID._CID(PNP0C02)
+// Find:     58434944
+// Replace:  5F434944
+// TgtBridge:50544944
+//
+// In config ACPI, UBTC.XCID to UBTC._CID(PNP0CA0)
+// Find:     58434944
+// Replace:  5F434944
+// TgtBridge:55425443
 //
 // Search PS2M,MOU...
 // Search PNP0F03,PNP0F0B,PNP0F12,PNP0F13,PNP0F0E
