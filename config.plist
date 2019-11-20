@@ -852,7 +852,7 @@
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>NoCaches</key>
-		<true/>
+		<false/>
 	</dict>
 </dict>
 </plist>
