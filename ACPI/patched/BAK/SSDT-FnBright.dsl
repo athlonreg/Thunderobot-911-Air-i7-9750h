@@ -1,8 +1,8 @@
 //
 DefinitionBlock ("", "SSDT", 2, "hack", "RMCF", 0)
 {
-    External(_SB.PCI0.LPCB.PS2K, DeviceObj)
-    Scope (_SB.PCI0.LPCB.PS2K)
+    External(_SB.PCI0.LPCB.PS2L, DeviceObj)
+    Scope (_SB.PCI0.LPCB.PS2L)
     {
         Name (RMCF,Package() 
         {
