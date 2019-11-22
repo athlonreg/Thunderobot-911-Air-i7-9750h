@@ -1,5 +1,4 @@
-//
-DefinitionBlock ("", "SSDT", 2, "hack", "RMCF", 0)
+DefinitionBlock ("", "SSDT", 2, "hack", "FnKey", 0)
 {
     External(_SB.PCI0.LPCB.PS2L, DeviceObj)
     Scope (_SB.PCI0.LPCB.PS2L)
@@ -24,4 +23,3 @@ DefinitionBlock ("", "SSDT", 2, "hack", "RMCF", 0)
         })
     }
 }
-//EOF
