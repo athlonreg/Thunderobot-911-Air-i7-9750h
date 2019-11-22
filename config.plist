@@ -74,78 +74,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>I2C1:_CRS to XCRS in TPD0</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X0NSUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					WENSUw==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					VFBEMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:XCRS to _CRS(TPM)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WENSUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					X0NSUw==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					VFBN
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:XCRS to _CRS(UBTC)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WENSUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					X0NSUw==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					VUJUQw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>PS2M:_STA to XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					UFMyTQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>I2C1:XSTA to _STA(UBTC)</string>
 					<key>Disabled</key>
 					<false/>
@@ -254,88 +182,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>PS2M:_CID to XCID</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X0NJRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WENJRA==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					UFMyTQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>PS2M:XCID to _CID(PTID)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WENJRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					X0NJRA==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					UFRJRA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>PS2M:XCID to _CID(UBTC)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WENJRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					X0NJRA==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					VUJUQw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_PTS to ZPTS(1,N)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1BUUwE=
-					</data>
-					<key>Replace</key>
-					<data>
-					WlBUUwE=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_WAK to ZWAK(1,S)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1dBSwk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WldBSwk=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>UPBI -&gt; XPBI in BAT0</string>
 					<key>Disabled</key>
 					<false/>
@@ -405,7 +251,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0 brcmfx-country=#a</string>
+		<string>brcmfx-country=#a -v</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
@@ -801,17 +647,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2019</string>
+		<string>10/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP151.88Z.F000.B00.1909172039</string>
+		<string>MBP151.88Z.F000.B00.1910172200</string>
 		<key>Board-ID</key>
 		<string>Mac-937A206F2EE63C01</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02827501QXJP4FJC</string>
+		<string>C02853902CDJP4FFB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -823,7 +669,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.0.78.0.0</string>
+		<string>1037.40.124.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -841,9 +687,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,1</string>
 		<key>SerialNumber</key>
-		<string>C02X10KFKGYG</string>
+		<string>C02Y10S3KGYG</string>
 		<key>SmUUID</key>
-		<string>35E9A0F0-2823-405A-99CD-83959CA94DC1</string>
+		<string>536A2564-BAAD-4D15-A6B6-D53E31A7F3B3</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
