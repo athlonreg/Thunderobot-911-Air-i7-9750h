@@ -273,7 +273,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<true/>
+			<false/>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -460,10 +460,6 @@
 				<key>device-id</key>
 				<data>
 				mz4AAA==
-				</data>
-				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
 				</data>
 				<key>enable-hdmi20</key>
 				<data>
