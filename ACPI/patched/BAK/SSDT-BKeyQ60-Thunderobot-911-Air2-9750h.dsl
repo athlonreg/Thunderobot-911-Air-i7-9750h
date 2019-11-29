@@ -51,7 +51,8 @@ DefinitionBlock ("", "SSDT", 2, "hack", "BrightFN", 0x00000000)
 
             If (LEqual (CBSC, One))
             {
-                If (CondRefOf (\_SB.SLPB))
+                If (_OSI ("Darwin")){}
+                ElseIf (CondRefOf (\_SB.SLPB))
                 {
                     Notify (SLPB, 0x80)
                 }
