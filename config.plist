@@ -10,119 +10,13 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>SAT0 -&gt; SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>U0FUMA==</data>
-					<key>Replace</key>
-					<data>U0FUQQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C:_OSI to XOSI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X09TSQ==</data>
-					<key>Replace</key>
-					<data>WE9TSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:_STA to XSTA in GPI0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1NUQQ==</data>
-					<key>Replace</key>
-					<data>WFNUQQ==</data>
-					<key>TgtBridge</key>
-					<data>R1BJMA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>I2C1:_STA to XSTA in TPD0</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1NUQQ==</data>
+					<data>Cl9TVEEAcEJE</data>
 					<key>Replace</key>
-					<data>WFNUQQ==</data>
-					<key>TgtBridge</key>
-					<data>VFBEMA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:XSTA to _STA(UBTC)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>WFNUQQ==</data>
-					<key>Replace</key>
-					<data>X1NUQQ==</data>
-					<key>TgtBridge</key>
-					<data>VUJUQw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:XSTA to _STA(TPM)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>WFNUQQ==</data>
-					<key>Replace</key>
-					<data>X1NUQQ==</data>
-					<key>TgtBridge</key>
-					<data>VFBN</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:XSTA to _STA(IPUA)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>WFNUQQ==</data>
-					<key>Replace</key>
-					<data>X1NUQQ==</data>
-					<key>TgtBridge</key>
-					<data>SVBVQQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:XSTA to _STA(PTID)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>WFNUQQ==</data>
-					<key>Replace</key>
-					<data>X1NUQQ==</data>
-					<key>TgtBridge</key>
-					<data>UFRJRA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:XSTA to _STA(NPCF)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>WFNUQQ==</data>
-					<key>Replace</key>
-					<data>X1NUQQ==</data>
-					<key>TgtBridge</key>
-					<data>TlBDRg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>I2C1:XSTA to _STA(PEGP)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>WFNUQQ==</data>
-					<key>Replace</key>
-					<data>X1NUQQ==</data>
-					<key>TgtBridge</key>
-					<data>UEVHUA==</data>
+					<data>ClhTVEEAcEJE</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -179,7 +73,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>brcmfx-country=#a -v -no_compat_check</string>
+		<string>-no_compat_check</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
@@ -209,114 +103,6 @@
 		<false/>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,0,0</string>
-				<key>device_type</key>
-				<string>Host bridge</string>
-				<key>model</key>
-				<string>8th Gen Core Processor Host Bridge/DRAM Registers</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,20,0</string>
-				<key>device_type</key>
-				<string>USB controller</string>
-				<key>model</key>
-				<string>Cannon Lake PCH HECI Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,21,0</string>
-				<key>device_type</key>
-				<string>Serial bus controller</string>
-				<key>model</key>
-				<string>Cannon Lake PCH Serial IO I2C Controller #0</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,21,1</string>
-				<key>device_type</key>
-				<string>Serial bus controller</string>
-				<key>model</key>
-				<string>Cannon Lake PCH Serial IO I2C Controller #1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,22,0</string>
-				<key>device_type</key>
-				<string>Communication controller</string>
-				<key>model</key>
-				<string>Cannon Lake PCH HECI Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,23,0</string>
-				<key>device_type</key>
-				<string>SATA controller</string>
-				<key>model</key>
-				<string>Cannon Lake Mobile PCH SATA AHCI Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,0</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Cannon Lake PCH PCI Express Root Port #9</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,0/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>memory controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x5)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,5</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Cannon Lake PCH PCI Express Root Port #14</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x5)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,5/0,0</string>
-				<key>device_type</key>
-				<string>Ethernet Controller</string>
-				<key>model</key>
-				<string>RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x6)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,6</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Cannon Lake PCH PCI Express Root Port #15</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1d,0x6)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -325,33 +111,6 @@
 				<string>AirPort Extreme</string>
 				<key>model</key>
 				<string>BCM4360 802.11ac Wireless Network Adapter</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x7)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,7</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Cannon Lake PCH PCI Express Root Port #16</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x7)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,7/0,0</string>
-				<key>device_type</key>
-				<string>SD Card</string>
-				<key>model</key>
-				<string>RTS522A PCI Express Card Reader</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,0</string>
-				<key>device_type</key>
-				<string>ISA bridge</string>
-				<key>model</key>
-				<string>ISA</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
@@ -364,19 +123,8 @@
 				<key>model</key>
 				<string>Realtek HD Audio ALC257</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,4</string>
-				<key>device_type</key>
-				<string>SMBus</string>
-				<key>model</key>
-				<string>Cannon Lake PCH SMBus Controller</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AACbPg==</data>
 				<key>AAPL,slot-name</key>
@@ -541,7 +289,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02924500J90000CB</string>
+		<string>C02906310QX00008C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -573,9 +321,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro16,1</string>
 		<key>SerialNumber</key>
-		<string>C02YVHZKPG8W</string>
+		<string>C02Y7NZHPG8W</string>
 		<key>SmUUID</key>
-		<string>100DC130-44BB-4DDF-A172-3496A379C9D5</string>
+		<string>69FE6C55-B655-45FA-B308-CEFBA51466C8</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
