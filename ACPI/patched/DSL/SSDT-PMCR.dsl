@@ -1,8 +1,8 @@
 //Add PMCR
-DefinitionBlock ("", "SSDT", 2, "hack", "PMCR", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "PMCR", 0)
 {
-    External(_SB.PCI0, DeviceObj)
-    Scope (_SB.PCI0)
+    External(_SB.PCI0.LPCB, DeviceObj)
+    Scope (_SB.PCI0.LPCB)
     {
         Device (PMCR)
         {
@@ -19,7 +19,7 @@ DefinitionBlock ("", "SSDT", 2, "hack", "PMCR", 0)
             {
                 If (_OSI ("Darwin"))
                 {
-                    Return (0x0b)
+                    Return (0x0B)
                 }
                 Else
                 {

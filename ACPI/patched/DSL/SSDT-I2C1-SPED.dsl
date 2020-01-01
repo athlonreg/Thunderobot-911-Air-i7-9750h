@@ -9,6 +9,8 @@ DefinitionBlock("", "SSDT", 2, "hack", "I2C-SPED", 0)
     External(SSL1, IntObj)
     Scope(_SB.PCI0.I2C1)
     {
+        If (_OSI ("Darwin"))
+        {
         Method (PKGX, 3, Serialized)
         {
             Name (PKG, Package (0x03)
@@ -35,6 +37,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "I2C-SPED", 0)
                 0x62
             })
             Return (PKG)
+        }
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-DefinitionBlock ("", "SSDT", 2, "hack", "SBUS", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "SBUS", 0)
 {
     External (_SB_.PCI0.SBUS, DeviceObj)
 
@@ -9,18 +9,27 @@ DefinitionBlock ("", "SSDT", 2, "hack", "SBUS", 0)
         {
             Name (_CID, "smbus")
             Name (_ADR, Zero)
-            Device (BUS0)
+            Device (DVL0)
             {
-                Name (_CID, "smbus")  // _CID: Compatible ID
-                Name (_ADR, Zero)  // _ADR: Address
-            }
+                Name (_ADR, 0x57)
+                Name (_CID, "diagsvault")
+                Method (_DSM, 4, NotSerialized)
+                {
+                    If (!Arg2)
+                    {
+                        Return (Buffer (One)
+                        {
+                             0x03
+                        })
+                    }
 
-            Device (BUS1)
-            {
-                Name (_CID, "smbus")  // _CID: Compatible ID
-                Name (_ADR, One)  // _ADR: Address
+                    Return (Package (0x02)
+                    {
+                        "address", 
+                        0x57
+                    })
+                }
             }
-            
             Method (_STA, 0, NotSerialized)
             {
                 If (_OSI ("Darwin"))

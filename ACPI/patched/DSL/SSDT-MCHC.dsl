@@ -1,7 +1,7 @@
 //Add MCHC
-DefinitionBlock ("", "SSDT", 2, "hack", "MCHC", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "MCHC", 0)
 {
-    External (_SB_.PCI0, DeviceObj)
+    External (_SB.PCI0, DeviceObj)
     Scope (_SB.PCI0)
     {
         Device (MCHC)

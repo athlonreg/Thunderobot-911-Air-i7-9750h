@@ -1,5 +1,5 @@
-//
-DefinitionBlock ("", "SSDT", 2, "hack", "DMAC", 0)
+//Add DMAC
+DefinitionBlock ("", "SSDT", 2, "ACDT", "DMAC", 0)
 {
     External(_SB.PCI0.LPCB, DeviceObj)
     Scope (_SB.PCI0.LPCB)
