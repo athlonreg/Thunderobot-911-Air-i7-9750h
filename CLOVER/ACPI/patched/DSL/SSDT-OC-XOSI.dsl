@@ -9,7 +9,7 @@
 //
 // Search _OSI......
 //
-DefinitionBlock("", "SSDT", 2, "ACDT", "OC-XOSI", 0)
+DefinitionBlock("", "SSDT", 2, "ACDT", "XOSI", 0)
 {
     Method(XOSI, 1)
     {
