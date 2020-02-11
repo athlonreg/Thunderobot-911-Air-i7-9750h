@@ -1,4 +1,4 @@
-DefinitionBlock("", "SSDT", 2, "hack", "I2C-SPED", 0)
+DefinitionBlock("", "SSDT", 2, "ACDT", "SPED", 0)
 {
     External(_SB_.PCI0.I2C1, DeviceObj)
     External(FMD1, IntObj)
