@@ -1,6 +1,6 @@
 //Disables DGPU
 #ifndef NO_DEFINITIONBLOCK
-DefinitionBlock("", "SSDT", 2, "hack", "NDGP", 0)
+DefinitionBlock("", "SSDT", 2, "ACDT", "NDGP", 0)
 {
 #endif
     External(_SB.PCI0.PEG0.PEGP._OFF, MethodObj)

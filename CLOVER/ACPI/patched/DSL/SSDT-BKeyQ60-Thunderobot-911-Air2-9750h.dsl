@@ -3,7 +3,7 @@
 // Find:     5F 51 36 30
 // Replace:  58 51 36 30
 //
-DefinitionBlock ("", "SSDT", 2, "hack", "BrightFN", 0x00000000)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "BKEY", 0x00000000)
 {
     External (_SB_.GGOV, MethodObj)
     External (_SB_.GWMI, UnknownObj)
