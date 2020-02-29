@@ -15,7 +15,7 @@ jobs:
         zip -qry -FS OpenCore-latest.zip OpenCore
     - name: Changelog
       run: |
-        sed -n '/Latest/,$p' Changelog.md > Changelog.md
+        sed -n '/Latest/,$p' Changelog.md > tmp.txt
     - name: Publish Asserts
       uses: softprops/action-gh-release@v0.1.5
       if: startsWith(github.ref, 'refs/tags/')
@@ -23,6 +23,6 @@ jobs:
         files: |
            CLOVER-latest.zip
            OpenCore-latest.zip
-        body_path: Changelog.md
+        body_path: tmp.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
