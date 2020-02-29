@@ -1,0 +1,28 @@
+name: Publish Release
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Package
+      run: |
+        zip -qry -FS CLOVER-latest.zip CLOVER
+        zip -qry -FS OpenCore-latest.zip OpenCore
+    - name: Changelog
+      run: |
+        echo "- $(date)" > ${{ github.workflow }}-Changelog.txt
+        echo "  -" $(git log | sed -n 5p | awk '{for (i=1;i<=NF;i++)printf("%s ", $i);print ""}') >> ${{ github.workflow }}-Changelog.txt
+    - name: Publish Asserts
+      uses: softprops/action-gh-release@v0.1.5
+      with:
+        files: |
+           CLOVER-latest.zip
+           OpenCore-latest.zip
+        body_path: ${{ github.workflow }}-Changelog.txt
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
