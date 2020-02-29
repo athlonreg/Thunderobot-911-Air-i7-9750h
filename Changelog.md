@@ -1,0 +1,11 @@
+- 2020.2.29
+  - Update for Catalina
+- Latest
+  - Update AppleALC to 1.4.7
+  - Update Lilu to 1.4.2
+  - Update VoodooPS2 to 2.1.2
+  - Update VoodooInput to 1.2.2
+  - Update CLOVER to 5104
+  - Update OpenCore for 2020.2.29 updates
+  - Support for startup audio
+  - Only use startup audio
