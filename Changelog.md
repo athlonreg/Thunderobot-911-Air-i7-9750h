@@ -1,3 +1,11 @@
+- 2020.3.8
+  
+  - Update OpenCore to 0.5.7
+  - Use AOAC method
+  - Use OpenCore GUI
+  - Update mac info
+  - Update Resource
+  - Remove Startup Audio to speedup
 - 2020.3.2
   - Update AppleALC to 1.4.7
   - Update Lilu to 1.4.2
@@ -8,14 +16,8 @@
   - Update OpenCore to 0.5.6
   - Support for startup audio
   - Only use startup audio
-
 - 2020.2.29
   - Update for Catalina
 - Latest
-
-  - Update OpenCore to 0.5.7
-  - Use AOAC method
-  - Use OpenCore GUI
-  - Update mac info
-  - Update Resource
-  - Remove Startup Audio to speedup
+  - Update AOAC for CLOVER
+  - Remove table drop
