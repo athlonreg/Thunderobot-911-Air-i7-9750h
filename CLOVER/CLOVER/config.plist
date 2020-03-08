@@ -10,6 +10,26 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>_S3 to XS3</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1MzXw==</data>
+					<key>Replace</key>
+					<data>WFMzXw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>PNLF to XNLF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>UE5MRg==</data>
+					<key>Replace</key>
+					<data>WE5MRg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>I2C1:_STA to XSTA in TPD0</string>
 					<key>Disabled</key>
 					<false/>
@@ -50,6 +70,16 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>GPRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>R1BSVwI=</data>
+					<key>Replace</key>
+					<data>WFBSVwI=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>_Q60 -&gt; XQ60</string>
 					<key>Disabled</key>
 					<false/>
@@ -60,13 +90,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<true/>
 	</dict>
