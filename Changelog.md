@@ -15,3 +15,6 @@
 
   - Update OpenCore to 0.5.7
   - Use AOAC method
+  - Use OpenCore GUI
+  - Update mac info
+  - Update Resource
