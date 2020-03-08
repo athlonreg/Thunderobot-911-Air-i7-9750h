@@ -18,3 +18,4 @@
   - Use OpenCore GUI
   - Update mac info
   - Update Resource
+  - Remove Startup Audio to speedup
