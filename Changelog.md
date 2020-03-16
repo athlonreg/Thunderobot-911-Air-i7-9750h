@@ -19,5 +19,12 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update AOAC for CLOVER
-  - Remove table drop
+  - NVMeFix to 1.0.2
+  - Shell to OpenShell
+  - FwRuntimeServices to OpenRuntime
+  - BootLiquor to OpenCanopy
+  - FwProtect to OpenControl
+  - Update CLOVER to 5105
+  - Update AOAC for CLOVER and OenCore
+  - Remove table drop for CLOVER
+
