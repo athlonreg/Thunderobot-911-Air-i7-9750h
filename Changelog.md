@@ -19,12 +19,14 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - NVMeFix to 1.0.2
+  - Update NVMeFix to 1.0.2
   - Shell to OpenShell
   - FwRuntimeServices to OpenRuntime
   - BootLiquor to OpenCanopy
   - FwProtect to OpenControl
   - Update CLOVER to 5105
-  - Update AOAC for CLOVER and OenCore
+  - Abandon AOAC to use S3 for OpenCore and CLOVER
   - Remove table drop for CLOVER
+  - Remove USBInjectAll
+  - Sync CLOVER with OpenCore
 
