@@ -53,14 +53,9 @@ DefinitionBlock ("", "SSDT", 2, "OCLT", "BKEY", 0)
 
             If (LEqual (CBSC, One))
             {
-                If (_OSI ("Darwin"))
+                If (CondRefOf (\_SB.SLPB))
                 {
-                    \_WAK (0x03)
                     Notify (SLPB, 0x80)
-                }
-                Else
-                {
-                    \_SB.PCI0.LPCB.EC0.XQ60 ()
                 }
             }
 
