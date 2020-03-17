@@ -1,9 +1,9 @@
 //
 DefinitionBlock("", "SSDT", 2, "ACDT", "PNLF", 0)
 {
-    External (_SB.PCI0.GFX0, DeviceObj)
+    External (_SB, DeviceObj)
     
-    Scope(_SB.PCI0.GFX0)
+    Scope(_SB)
     {
         Device(PNLF)
         {
