@@ -1,5 +1,15 @@
+- 2020.3.17
+  - Update NVMeFix to 1.0.2
+  - Shell to OpenShell
+  - FwRuntimeServices to OpenRuntime
+  - BootLiquor to OpenCanopy
+  - FwProtect to OpenControl
+  - Update CLOVER to 5105
+  - Abandon AOAC to use S3 for OpenCore and CLOVER
+  - Remove table drop for CLOVER
+  - Remove USBInjectAll
+  - Sync CLOVER with OpenCore
 - 2020.3.8
-  
   - Update OpenCore to 0.5.7
   - Use AOAC method
   - Use OpenCore GUI
@@ -18,15 +28,6 @@
   - Only use startup audio
 - 2020.2.29
   - Update for Catalina
-- Latest
-  - Update NVMeFix to 1.0.2
-  - Shell to OpenShell
-  - FwRuntimeServices to OpenRuntime
-  - BootLiquor to OpenCanopy
-  - FwProtect to OpenControl
-  - Update CLOVER to 5105
-  - Abandon AOAC to use S3 for OpenCore and CLOVER
-  - Remove table drop for CLOVER
-  - Remove USBInjectAll
-  - Sync CLOVER with OpenCore
 
+- Latest
+  - Remove HdaCodecDump
