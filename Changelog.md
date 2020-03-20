@@ -28,6 +28,12 @@
   - Only use startup audio
 - 2020.2.29
   - Update for Catalina
-
 - Latest
   - Remove HdaCodecDump
+  - Remove XHCI-unsupported
+  - Remove UIAC
+  - Update VoodooInput for MT2
+  - Update VoodooPS2
+  - Update VoodooI2C
+  - Update VoodooI2CHID
+  - Adjust VoodooInput load before VoodooI2C
