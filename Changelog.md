@@ -10,7 +10,6 @@
   - Remove USBInjectAll
   - Sync CLOVER with OpenCore
 - 2020.3.8
-  - Update OpenCore to 0.5.7
   - Use AOAC method
   - Use OpenCore GUI
   - Update mac info
@@ -32,8 +31,16 @@
   - Remove HdaCodecDump
   - Remove XHCI-unsupported
   - Remove UIAC
-  - Update VoodooInput for MT2
-  - Update VoodooPS2
-  - Update VoodooI2C
-  - Update VoodooI2CHID
+  - Update AppleALC to 1.4.8
+  - Update VoodooInput to 1.0.4
+  - Integrate VoodooInput to VoodooPS2 Plugln
+  - Update VoodooPS2 to 2.1.3
+  - Update VoodooI2C to 2.3
   - Adjust VoodooInput load before VoodooI2C
+  - Update Lilu to 1.4.3
+  - Update WhateverGreen to 1.3.8
+  - Update VirtualSMC to 1.1.2
+  - Update NVMeFix to 1.0.2
+  - Update CPUFriend and NoTouchID to use Lilu 1.4.3 APIs
+  - Update OpenCore to 0.5.7 release
+  - Update CLOVER to 5108
