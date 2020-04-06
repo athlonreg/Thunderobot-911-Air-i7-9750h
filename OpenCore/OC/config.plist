@@ -382,19 +382,21 @@
 			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>ProtectCsmRegion</key>
+			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
-			<true/>
+			<false/>
 			<key>ProtectUefiServices</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
+			<key>RebuildAppleMemoryMap</key>
+			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
-			<key>ShrinkMemoryMap</key>
-			<false/>
 			<key>SignalAppleOS</key>
+			<false/>
+			<key>SyncRuntimePermissions</key>
 			<false/>
 		</dict>
 	</dict>
@@ -402,13 +404,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x6)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>device_type</key>
-				<string>AirPort Extreme</string>
-				<key>model</key>
-				<string>BCM4360 802.11ac Wireless Network Adapter</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
@@ -417,31 +412,9 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AACbPg==</data>
+				<data>CQCbPg==</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>enable-lspcon-support</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>EgAAAA==</data>
-				<key>framebuffer-con3-has-lspcon</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con3-preferred-lspcon-mode</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-flags</key>
@@ -783,7 +756,7 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>VoodooInput.kext</string>
+				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
 				<string>MT2</string>
 				<key>Enabled</key>
@@ -896,6 +869,8 @@
 			<true/>
 			<key>HideSelf</key>
 			<true/>
+			<key>ConsoleAttributes</key>
+			<integer>0</integer>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
@@ -970,7 +945,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>OpenCore Shell</string>
+				<string>OpenShell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
 			</dict>
@@ -1000,7 +975,7 @@
 			</dict>
 		</dict>
 		<key>WriteFlash</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1011,17 +986,17 @@
 			<key>AdviseWindows</key>
 			<true/>
 			<key>MLB</key>
-			<string>C020128024NN9PRA8</string>
+			<string>C02918405CDN9PRCB</string>
 			<key>ROM</key>
-			<data>JKQ0VkO6</data>
+			<data>+AN3Kf4w</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro16,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CGCY6MD6N</string>
+			<string>C02YN4YQMD6N</string>
 			<key>SystemUUID</key>
-			<string>C76433C1-FC86-4151-9E02-F7430B5643BA</string>
+			<string>4B1FA068-1C15-424E-AFDB-1957F3DBA741</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1059,7 +1034,6 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>MemoryAllocation.efi</string>
-			<string>#AudioDxe.efi</string>
 			<string>OpenCanopy.efi</string>
 		</array>
 		<key>Input</key>
