@@ -10,16 +10,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>PNLF to XNLF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>UE5MRg==</data>
-					<key>Replace</key>
-					<data>WE5MRg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>I2C1:_STA to XSTA in TPD0</string>
 					<key>Disabled</key>
 					<false/>
@@ -60,16 +50,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>GPRW to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>R1BSVwI=</data>
-					<key>Replace</key>
-					<data>WFBSVwI=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>_Q60 -&gt; XQ60</string>
 					<key>Disabled</key>
 					<false/>
@@ -80,6 +60,13 @@
 				</dict>
 			</array>
 		</dict>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+		</array>
 		<key>FixHeaders</key>
 		<true/>
 	</dict>
@@ -188,6 +175,41 @@
 		<false/>
 		<key>KernelPm</key>
 		<true/>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>USB port limit patch #1 10.15.x modify by DalianSky(credit ydeng)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/sPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.15.x</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOUSBHostFamily</string>
+				<key>Replace</key>
+				<data>g/s/Dw==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB Port limit patch #2 10.15.x modify by DalianSky</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>g/kPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.15.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>g/k/Dw==</data>
+			</dict>
+		</array>
 		<key>PanicNoKextDump</key>
 		<true/>
 	</dict>

@@ -1,5 +1,5 @@
 //Fix HPET,RTC,TIMR
-DefinitionBlock ("", "SSDT", 2, "ACDT", "HRTF", 0)
+DefinitionBlock ("", "SSDT", 2, "ACDT", "HRTfix", 0)
 {
     External (_SB.PCI0.LPCB, DeviceObj)
     External (_SB.PCI0.LPCB.RTC, DeviceObj)
