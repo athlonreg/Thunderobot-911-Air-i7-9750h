@@ -1,5 +1,5 @@
 //Add MEM2
-DefinitionBlock ("", "SSDT", 2, "ACDT", "MEM2", 0)
+DefinitionBlock ("", "SSDT", 2, "hack", "MEM2", 0)
 {
     Device (MEM2)
     {
