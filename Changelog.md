@@ -1,3 +1,20 @@
+- 2020.4.7
+  - Remove HdaCodecDump
+  - Remove XHCI-unsupported
+  - Remove UIAC
+  - Update AppleALC to 1.4.8
+  - Update VoodooInput to 1.0.4
+  - Integrate VoodooInput to VoodooPS2 Plugln
+  - Update VoodooPS2 to 2.1.3
+  - Update VoodooI2C to 2.3
+  - Adjust VoodooInput load before VoodooI2C
+  - Update Lilu to 1.4.3
+  - Update WhateverGreen to 1.3.8
+  - Update VirtualSMC to 1.1.2
+  - Update NVMeFix to 1.0.2
+  - Update CPUFriend and NoTouchID to use Lilu 1.4.3 APIs
+  - Update OpenCore to 0.5.7 release
+  - Update CLOVER to 5108
 - 2020.3.17
   - Update NVMeFix to 1.0.2
   - Shell to OpenShell
@@ -28,19 +45,6 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Remove HdaCodecDump
-  - Remove XHCI-unsupported
-  - Remove UIAC
-  - Update AppleALC to 1.4.8
-  - Update VoodooInput to 1.0.4
-  - Integrate VoodooInput to VoodooPS2 Plugln
-  - Update VoodooPS2 to 2.1.3
-  - Update VoodooI2C to 2.3
-  - Adjust VoodooInput load before VoodooI2C
-  - Update Lilu to 1.4.3
-  - Update WhateverGreen to 1.3.8
-  - Update VirtualSMC to 1.1.2
-  - Update NVMeFix to 1.0.2
-  - Update CPUFriend and NoTouchID to use Lilu 1.4.3 APIs
-  - Update OpenCore to 0.5.7 release
-  - Update CLOVER to 5108
+  - Update OpenCore to 0.5.8
+  - Update VirtualSMC
+
