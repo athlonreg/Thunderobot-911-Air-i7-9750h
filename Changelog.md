@@ -45,7 +45,7 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update OpenCore to 0.5.8
+  - Bump OpenCore version to 0.5.8
   - Update VoodooI2C to 2.4
   - Adjust VoodooInput to integrated by VoodooI2C
   - Set PickerAttributes to 1
