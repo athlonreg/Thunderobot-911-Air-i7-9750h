@@ -21,6 +21,10 @@ Wireless network adapter    BCM94360CS2 Wireless Adapter
 - 淡忘
 - 歪果仁
 - 官人
+- Acidanthera Team
+- Alexandred
+- al3xtjames
+- jwise
 
 # Contribute
 本子的配置我会一直维护下去，也希望更多的人和我一起维护完善，同型号的朋友可以进我的群，共同交流学习。
