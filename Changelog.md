@@ -45,10 +45,22 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Bump OpenCore version to 0.5.8
-  - Update VoodooI2C to 2.4
+  - Update OpenCore version to 0.5.8
   - Adjust VoodooInput to integrated by VoodooI2C
   - Set PickerAttributes to 1
   - Update Resource for OpenCore GUI
-  - Update VirtualSMC and its pluglns
+  - Added Shutdown ColdReset and WarmReset menu
+  - Update WhateverGreen to 1.3.9
+  - Update VoodooPS2 to 2.1.4
+  - Update VoodooI2C to 2.4.1
+  - Update VoodooInput to 1.0.5
+  - Integrate ApfsDriverLoader with OpenCorePkg
+  - Update AppleSupportPkg to 2.1.7
+  - Update VirtualSMC to 1.1.3
+  - Update Lilu to 1.4.4
+  - Update CLOVER to 5114
+  - Update NVMeFix
+  - Update AppleALC
+  - Update CPUFriend
+  - Update NoTouchID
 
