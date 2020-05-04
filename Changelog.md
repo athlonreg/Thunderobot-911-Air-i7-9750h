@@ -52,15 +52,15 @@
   - Added Shutdown ColdReset and WarmReset menu
   - Update WhateverGreen to 1.3.9
   - Update VoodooPS2 to 2.1.4
-  - Update VoodooI2C to 2.4.1
+  - Update VoodooI2C to 2.4.2
   - Update VoodooInput to 1.0.5
   - Integrate ApfsDriverLoader with OpenCorePkg
   - Update AppleSupportPkg to 2.1.7
   - Update VirtualSMC to 1.1.3
   - Update Lilu to 1.4.4
-  - Update CLOVER to 5114
+  - Update CLOVER to 5115
   - Update NVMeFix
-  - Update AppleALC
+  - Update AppleALC to 1.4.9
   - Update CPUFriend
   - Update NoTouchID
 
