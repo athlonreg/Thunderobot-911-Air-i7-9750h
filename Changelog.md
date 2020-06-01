@@ -62,7 +62,7 @@
   - Only use startup audio
 - 2020.2.29
   - Update for Catalina
-- Latest
+- 2020.6.1
   - Update OpenCore version to 0.5.9
   - Update Lilu to 1.4.5
   - Update WhateverGreen to 1.4.0
