@@ -1,3 +1,16 @@
+- 2020.6.1
+  - Update OpenCore version to 0.5.9
+  - Update Lilu to 1.4.5
+  - Update WhateverGreen to 1.4.0
+  - Update VoodooPS2 to 2.1.5
+  - Update VoodooI2C to 2.4.2
+  - Update VoodooInput to 1.0.6
+  - Update VirtualSMC to 1.1.4
+  - Update AppleALC to 1.5.0
+  - Update VirtualSMC to 1.1.4
+  - Remove XSPI
+  - Remove Audio
+  - Update CLOVER to 5118
 - 2020.5.4
   - Update OpenCore version to 0.5.8
   - Adjust VoodooInput to integrated by VoodooI2C
@@ -62,16 +75,4 @@
   - Only use startup audio
 - 2020.2.29
   - Update for Catalina
-- 2020.6.1
-  - Update OpenCore version to 0.5.9
-  - Update Lilu to 1.4.5
-  - Update WhateverGreen to 1.4.0
-  - Update VoodooPS2 to 2.1.5
-  - Update VoodooI2C to 2.4.2
-  - Update VoodooInput to 1.0.6
-  - Update VirtualSMC to 1.1.4
-  - Update AppleALC to 1.5.0
-  - Update VirtualSMC to 1.1.4
-  - Remove XSPI
-  - Remove Audio
-  - Update CLOVER to 5118
+-latest
