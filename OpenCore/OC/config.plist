@@ -120,14 +120,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>XSPI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XSPI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>BAT0</string>
 				<key>Enabled</key>
 				<true/>
@@ -159,7 +151,7 @@
 				<string>SSDT-AOACQ60-Thunderobot-911-Air2-9750h.aml</string>
 			</dict>
 		</array>
-		<key>Block</key>
+		<key>Delete</key>
 		<array/>
 		<key>Patch</key>
 		<array>
@@ -427,7 +419,7 @@
 				<data>AAAAgA==</data>
 			</dict>
 		</dict>
-		<key>Block</key>
+		<key>Delete</key>
 		<dict/>
 	</dict>
 	<key>Kernel</key>
@@ -871,8 +863,6 @@
 			<string>None</string>
 			<key>HideAuxiliary</key>
 			<true/>
-			<key>HideSelf</key>
-			<true/>
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
@@ -892,12 +882,16 @@
 		<dict>
 			<key>AppleDebug</key>
 			<false/>
+			<key>ApplePanic</key>
+			<false/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>SysReport</key>
+			<false/>
 			<key>Target</key>
 			<integer>3</integer>
 		</dict>
@@ -926,6 +920,8 @@
 			<true/>
 			<key>AuthRestart</key>
 			<false/>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>ExposeSensitiveData</key>
@@ -1032,17 +1028,17 @@
 			<key>AdviseWindows</key>
 			<true/>
 			<key>MLB</key>
-			<string>C02918405CDN9PRCB</string>
+			<string>C02947800P780PR1U</string>
 			<key>ROM</key>
-			<data>+AN3Kf4w</data>
+			<data>s9f6iVIx</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro16,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02YN4YQMD6N</string>
+			<string>C02ZP8KLMD6M</string>
 			<key>SystemUUID</key>
-			<string>4B1FA068-1C15-424E-AFDB-1957F3DBA741</string>
+			<string>210D35AA-6B52-1558-AF63-686DE6DF7AFD</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1121,8 +1117,6 @@
 			<false/>
 			<key>ConsoleMode</key>
 			<string></string>
-			<key>DirectGopCacheMode</key>
-			<string></string>
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
@@ -1175,32 +1169,23 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>DeduplicateBootOrder</key>
+			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
-			<key>RequestBootVarFallback</key>
-			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>TscSyncTimeout</key>
+			<integer>0</integer>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
-		<array>
-			<dict>
-				<key>Address</key>
-				<integer>268435456</integer>
-				<key>Comment</key>
-				<string>HD3000: IGPU memory corruption errata</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Size</key>
-				<integer>268435456</integer>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 </dict>
 </plist>
