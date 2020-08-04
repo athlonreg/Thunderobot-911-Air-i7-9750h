@@ -76,3 +76,17 @@
 - 2020.2.29
   - Update for Catalina
 -latest
+  - Update OpenCore to 0.6.0
+  - Update NVMeFix to 1.0.3
+  - Update NoTouchID to 1.0.4
+  - Update VoodooInput to 1.0.7
+  - Update VoodooPS2 to 2.1.6
+  - Update VoodooI2C of 19G73 BuildMachineOSBuild
+  - Update VirtualSMC to 1.1.5
+  - Update AppleALC to 1.5.1
+  - Update WhateverGreen to 1.4.1
+  - Update Lilu to 1.4.6
+  - Update CPUFriend to 1.2.1
+  - Update CLOVER to 5120
+  - Update to compatible for Big Sur 11.0
+  - Support for hotplug of TYPE-C
