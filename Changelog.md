@@ -91,4 +91,8 @@
 - 2020.2.29
   - Update for Catalina
 - latest
-  - Update VoodooI2C to 2.4.4
+  - Update AppleALC to 1.5.2
+  - Update CLOVER to 5122
+  - Update Lilu to 1.4.7
+  - Update WhateverGreen to 1.4.2
+  - Update VirtualSMC to 1.1.6
