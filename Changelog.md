@@ -1,3 +1,11 @@
+- 2020.9.8
+  - Update OpenCore to 0.6.1
+  - Update AppleALC to 1.5.2
+  - Update CLOVER to 5122
+  - Update Lilu to 1.4.7
+  - Update WhateverGreen to 1.4.2
+  - Update VirtualSMC to 1.1.6
+  - Update RTL8111 to 2.3.0
 - 2020.8.4
   - Update OpenCore to 0.6.0
   - Update NVMeFix to 1.0.3
@@ -91,10 +99,14 @@
 - 2020.2.29
   - Update for Catalina
 - latest
-  - Update OpenCore to 0.6.1
-  - Update AppleALC to 1.5.2
-  - Update CLOVER to 5122
-  - Update Lilu to 1.4.7
-  - Update WhateverGreen to 1.4.2
-  - Update VirtualSMC to 1.1.6
-  - Update RTL8111 to 2.3.0
+  - Update OpenCore to 0.6.2
+  - Update AppleALC to 1.5.3
+  - Update CPUFriend to 1.2.2
+  - Update NVMeFix to 1.0.4
+  - Update Lilu to 1.4.8
+  - Update WhateverGreen to 1.4.3
+  - Update VirtualSMC to 1.1.7
+  - Update VoodooPS2 to 2.1.7
+  - Use Intel AC 9462 Wireless Card
+  - Use Intel Blutooth
+  - Custom USB Port by UIAC and USBInjectAll 0.7.5
