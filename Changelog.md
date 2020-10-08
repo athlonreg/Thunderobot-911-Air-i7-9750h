@@ -98,7 +98,7 @@
   - Only use startup audio
 - 2020.2.29
   - Update for Catalina
-- latest
+- Latest
   - Update OpenCore to 0.6.2
   - Update AppleALC to 1.5.3
   - Update CPUFriend to 1.2.2
