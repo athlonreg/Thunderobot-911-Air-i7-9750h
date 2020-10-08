@@ -1,3 +1,16 @@
+- 2020.10.8
+  - Update OpenCore to 0.6.2
+  - Update AppleALC to 1.5.3
+  - Update CPUFriend to 1.2.2
+  - Update NVMeFix to 1.0.4
+  - Update Lilu to 1.4.8
+  - Update WhateverGreen to 1.4.3
+  - Update VirtualSMC to 1.1.7
+  - Update VoodooPS2 to 2.1.7
+  - Update VoodooI2C to 2.5.1
+  - Use Intel AC 9462 Wireless Card
+  - Use Intel Blutooth
+  - Custom USB Port by UIAC and USBInjectAll 0.7.5
 - 2020.9.8
   - Update OpenCore to 0.6.1
   - Update AppleALC to 1.5.2
@@ -99,15 +112,4 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update OpenCore to 0.6.2
-  - Update AppleALC to 1.5.3
-  - Update CPUFriend to 1.2.2
-  - Update NVMeFix to 1.0.4
-  - Update Lilu to 1.4.8
-  - Update WhateverGreen to 1.4.3
-  - Update VirtualSMC to 1.1.7
-  - Update VoodooPS2 to 2.1.7
-  - Update VoodooI2C to 2.5.1
-  - Use Intel AC 9462 Wireless Card
-  - Use Intel Blutooth
-  - Custom USB Port by UIAC and USBInjectAll 0.7.5
+  - Bump OpenCore version to 0.6.3
