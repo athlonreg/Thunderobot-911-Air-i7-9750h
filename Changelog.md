@@ -113,3 +113,4 @@
   - Update for Catalina
 - Latest
   - Bump OpenCore version to 0.6.3
+  - Update VoodooI2C to 2.5.2
