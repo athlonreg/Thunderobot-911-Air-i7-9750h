@@ -112,5 +112,11 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Bump OpenCore version to 0.6.3
+  - Update OpenCore to 0.6.3
   - Update VoodooI2C to 2.5.2
+  - Update VoodooPS2 to 2.1.8
+  - Update Lilu to 1.4.9
+  - Update WhateverGreen to 1.4.4
+  - Update VirtualSMC to 1.1.8
+  - Update VoodooPS2 to 2.1.8
+  - Update AppleALC to 1.5.4
