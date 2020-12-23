@@ -1,3 +1,11 @@
+- 2020.12.8
+  - Update OpenCore to 0.6.4
+  - Update VoodooPS2 to 2.1.9
+  - Update Lilu to 1.5.0
+  - Update WhateverGreen to 1.4.5
+  - Update VirtualSMC to 1.1.9
+  - Update AppleALC to 1.5.5
+  - Update AirportItlwm to 1.2.0 beta
 - 2020.11.3
   - Update OpenCore to 0.6.3
   - Update VoodooI2C to 2.5.2
@@ -121,10 +129,4 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update OpenCore to 0.6.4
-  - Update VoodooPS2 to 2.1.9
-  - Update Lilu to 1.5.0
-  - Update WhateverGreen to 1.4.5
-  - Update VirtualSMC to 1.1.9
-  - Update AppleALC to 1.5.5
-  - Update AirportItlwm to 1.2.0 beta
+  - Update VoodooI2C to 2.6.1
