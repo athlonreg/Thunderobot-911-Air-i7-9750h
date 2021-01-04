@@ -129,4 +129,4 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update VoodooI2C to 2.6.1
+  - Update VoodooI2C to 2.6.2
