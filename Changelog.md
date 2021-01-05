@@ -129,4 +129,12 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
+  - Update AirportItlwm
+  - Update AppleALC to 1.5.6
+  - Update CPUFriend to 1.2.3
+  - Update NVMeFix to 1.0.5
+  - Update OcBinaryData
+  - Update OpenCore to 0.6.5
   - Update VoodooI2C to 2.6.2
+  - Update VoodooPS2 to 2.2.0
+  - Update WhateverGreen to 1.4.6
