@@ -1,3 +1,12 @@
+- 2021.3.3
+  - Update AppleALC to 1.5.8
+  - Update OpenCore to 0.6.7
+  - Update RTL8111 to 2.4.0
+  - Update VirtualSMC to 1.2.1
+  - Update VoodooI2C to 2.6.5
+  - Update VoodooInput to 1.1.1
+  - Update VoodooPS2 to 2.2.2
+  - Update WhateverGreen to 1.4.8
 - 2021.2.3
   - Update AirportItlwm
   - Update AppleALC to 1.5.7
@@ -150,11 +159,4 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update AppleALC to 1.5.8
-  - Update OpenCore to 0.6.7
-  - Update RTL8111 to 2.4.0
-  - Update VirtualSMC to 1.2.1
-  - Update VoodooI2C to 2.6.5
-  - Update VoodooInput to 1.1.1
-  - Update VoodooPS2 to 2.2.2
-  - Update WhateverGreen to 1.4.8
+  - Update Changelog
