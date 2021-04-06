@@ -159,4 +159,11 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update Changelog
+  - Update AppleALC to 1.5.9
+  - Update Lilu to 1.5.2
+  - Update NVMeFix to 1.0.6
+  - Update VirtualSMC to 1.2.2
+  - Update VoodooInput to 1.1.2
+  - Update WhateverGreen to 1.4.9
+  - Update OpenCore to 0.6.8
+  - SUpdate OcBinaryData
