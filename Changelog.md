@@ -166,4 +166,4 @@
   - Update VoodooInput to 1.1.2
   - Update WhateverGreen to 1.4.9
   - Update OpenCore to 0.6.8
-  - SUpdate OcBinaryData
+  - Update OcBinaryData
