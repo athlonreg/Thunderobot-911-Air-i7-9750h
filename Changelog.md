@@ -1,3 +1,12 @@
+- 2021.4.6
+  - Update AppleALC to 1.5.9
+  - Update Lilu to 1.5.2
+  - Update NVMeFix to 1.0.6
+  - Update VirtualSMC to 1.2.2
+  - Update VoodooInput to 1.1.2
+  - Update WhateverGreen to 1.4.9
+  - Update OpenCore to 0.6.8
+  - Update OcBinaryData
 - 2021.3.3
   - Update AppleALC to 1.5.8
   - Update OpenCore to 0.6.7
@@ -159,11 +168,10 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update AppleALC to 1.5.9
-  - Update Lilu to 1.5.2
-  - Update NVMeFix to 1.0.6
-  - Update VirtualSMC to 1.2.2
-  - Update VoodooInput to 1.1.2
-  - Update WhateverGreen to 1.4.9
-  - Update OpenCore to 0.6.8
-  - Update OcBinaryData
+  - Update OpenCore to 0.6.9
+  - Update AirportItlwm to 1.3.0
+  - Update AppleALC to 1.6.0
+  - Update Lilu to 1.5.3
+  - Update NVMeFix to 1.0.7
+  - Update VirtualSMC to 1.2.3
+  - Update VoodooPS2 to 2.2.3
