@@ -1,3 +1,11 @@
+- 2021.5.5
+  - Update OpenCore to 0.6.9
+  - Update AirportItlwm to 1.3.0
+  - Update AppleALC to 1.6.0
+  - Update Lilu to 1.5.3
+  - Update NVMeFix to 1.0.7
+  - Update VirtualSMC to 1.2.3
+  - Update VoodooPS2 to 2.2.3
 - 2021.4.6
   - Update AppleALC to 1.5.9
   - Update Lilu to 1.5.2
@@ -168,10 +176,12 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update OpenCore to 0.6.9
-  - Update AirportItlwm to 1.3.0
-  - Update AppleALC to 1.6.0
-  - Update Lilu to 1.5.3
-  - Update NVMeFix to 1.0.7
-  - Update VirtualSMC to 1.2.3
+  - Update OpenCore to 0.7.0
+  - Update AirportItlwm to 2.0.0
+  - Update AppleALC to 1.6.1
+  - Added ECEnabler
+  - Update NVMeFix to 1.0.8
+  - Update RealtekRTL8111 to 2.4.2
+  - Update VirtualSMC to 1.2.4
   - Update VoodooPS2 to 2.2.3
+  - Update WhateverGreen to 1.5.0
