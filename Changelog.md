@@ -1,3 +1,24 @@
+- 2021.8.3
+  - Update OpenCore to 0.7.2
+  - Update AirportItlwm to 2.0.0
+  - Update AppleALC to 1.6.1
+  - Update CPUFriend to 1.2.4
+  - Update ECEnabler to 1.0.2
+  - Use BlueToolFixup
+  - Update Lilu to 1.5.5
+  - Update VirtualSMC to 1.2.6
+  - Update WhateverGreen to 1.5.2
+- 2021.7.6
+  - Update OpenCore to 0.7.1
+  - Update AirportItlwm to 2.0.0
+  - Update AppleALC to 1.6.1
+  - Update CPUFriend to 1.2.4
+  - Update IntelBlutooth to 1.1.3
+  - Update Lilu to 1.5.4
+  - Update NVMeFix to 1.0.9
+  - Update VirtualSMC to 1.2.4
+  - Update VoodooPS2 to 2.2.4
+  - Update WhateverGreen to 1.5.1
 - 2021.6.8
   - Update OpenCore to 0.7.0
   - Update AirportItlwm to 2.0.0
@@ -186,13 +207,4 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update OpenCore to 0.7.1
-  - Update AirportItlwm to 2.0.0
-  - Update AppleALC to 1.6.1
-  - Update CPUFriend to 1.2.4
-  - Update IntelBlutooth to 1.1.3
-  - Update Lilu to 1.5.4
-  - Update NVMeFix to 1.0.9
-  - Update VirtualSMC to 1.2.4
-  - Update VoodooPS2 to 2.2.4
-  - Update WhateverGreen to 1.5.1
+  - Update Changelog
