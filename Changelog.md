@@ -1,3 +1,8 @@
+- 2021.10.5
+  - Update OpenCore to 0.7.4
+  - Update AppleALC to 1.6.5
+  - Update VoodooPS2 to 2.2.6
+  - Update WhateverGreen to 1.5.4
 - 2021.9.7
   - Update OpenCore to 0.7.3
   - Update AirportItlwm
@@ -215,8 +220,5 @@
   - Only use startup audio
 - 2020.2.29
   - Update for Catalina
-- Latest
-  - Update OpenCore to 0.7.4
-  - Update AppleALC to 1.6.5
-  - Update VoodooPS2 to 2.2.6
-  - Update WhateverGreen to 1.5.4
+- latest
+  - Update Changelog
