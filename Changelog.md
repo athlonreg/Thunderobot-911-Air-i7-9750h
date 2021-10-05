@@ -216,4 +216,7 @@
 - 2020.2.29
   - Update for Catalina
 - Latest
-  - Update Changelog
+  - Update OpenCore to 0.7.4
+  - Update AppleALC to 1.6.5
+  - Update VoodooPS2 to 2.2.6
+  - Update WhateverGreen to 1.5.4
