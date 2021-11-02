@@ -1,3 +1,12 @@
+- 2021.11.2
+  - Update OpenCore to 0.7.5
+  - Update AirportItlwm for Monterey
+  - Update AppleALC to 1.6.6
+  - Update BlueToolFixup to 2.6.1
+  - Update Lilu to 1.5.7
+  - Delete Sinetek-rtsx
+  - Update VoodooPS2 to 2.2.7
+  - Update WhateverGreen to 1.5.5
 - 2021.10.5
   - Update OpenCore to 0.7.4
   - Update AppleALC to 1.6.5
@@ -221,11 +230,4 @@
 - 2020.2.29
   - Update for Catalina
 - latest
-  - Update OpenCore to 0.7.5
-  - Update AirportItlwm for Monterey
-  - Update AppleALC to 1.6.6
-  - Update BlueToolFixup to 2.6.1
-  - Update Lilu to 1.5.7
-  - Delete Sinetek-rtsx
-  - Update VoodooPS2 to 2.2.7
-  - Update WhateverGreen to 1.5.5
+  - Update Changelog
